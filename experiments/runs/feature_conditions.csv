@@ -1,0 +1,6 @@
+condition,rotation_deg,occluded_fraction,reference_keypoints,frame_keypoints,good_matches,match_rate,detected
+frontal,0,0.0,1000,1000,625,0.625,True
+rotate_30,30,0.0,1000,1000,535,0.535,True
+rotate_60,60,0.0,1000,1000,539,0.539,True
+occlude_30,0,0.2993827160493827,1000,1000,287,0.287,True
+occlude_50,0,0.5,1000,1000,70,0.07,True

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "vtest",
+      "path": "data/videos/vtest.avi",
+      "url": "https://raw.githubusercontent.com/opencv/opencv/4.12.0/samples/data/vtest.avi",
+      "role": "video",
+      "size_bytes": 8131690,
+      "sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "width": 768,
+      "height": 576,
+      "frame_count": 795,
+      "source_fps": 10
+    },
+    {
+      "id": "box-reference",
+      "path": "data/targets/box.png",
+      "url": "https://raw.githubusercontent.com/opencv/opencv/4.12.0/samples/data/box.png",
+      "role": "reference_image",
+      "size_bytes": 50728,
+      "sha256": "1094629c1e2ebbc8a9ae2c9c63e18c1dff0f5f1481146e02f3b11a3d30feb20a"
+    },
+    {
+      "id": "box-scene",
+      "path": "data/targets/box_in_scene.png",
+      "url": "https://raw.githubusercontent.com/opencv/opencv/4.12.0/samples/data/box_in_scene.png",
+      "role": "matching_scene_image",
+      "size_bytes": 122490,
+      "sha256": "8b0225ff76244a42bd1400c0904f8b7afea7d97b7d8115495e42e98ad347bd51"
+    },
+    {
+      "id": "wallflower-light-switch",
+      "path": "data/videos/wallflower/LightSwitch.zip",
+      "url": "https://download.microsoft.com/download/E/7/6/E76CBD7B-7C3A-4D18-AA87-FC4B57DCCDAA/WallFlower/LightSwitch.zip",
+      "role": "frame_archive",
+      "size_bytes": 108368846,
+      "sha256": "2e0294fffa0bb08ac5f7628221da46370be5c6216daaeea5125c43783c1c3b95",
+      "width": 160,
+      "height": 120,
+      "frame_count": 2715,
+      "source_fps": 4,
+      "member_pattern": "b(?P<frame>\\d{5})\\.bmp"
+    },
+    {
+      "id": "wallflower-time-of-day",
+      "path": "tmp/rebuild-data/lasiesta/TimeOfDay.zip",
+      "url": "https://download.microsoft.com/download/E/7/6/E76CBD7B-7C3A-4D18-AA87-FC4B57DCCDAA/WallFlower/TimeOfDay.zip",
+      "role": "frame_archive",
+      "size_bytes": 197695102,
+      "sha256": "3d59e3b4036daf3e5353be025dc76d06382148714605eb3647dfd8bced7768ca",
+      "width": 160,
+      "height": 120,
+      "frame_count": 5890,
+      "source_fps": 4,
+      "member_pattern": "b(?P<frame>\\d{5})\\.bmp"
+    },
+    {
+      "id": "wallflower-license",
+      "path": "data/videos/wallflower/LICENSE.docx",
+      "url": "https://download.microsoft.com/download/E/7/6/E76CBD7B-7C3A-4D18-AA87-FC4B57DCCDAA/MSR-LA-Data-allow%20modification%20and%20distribution-Test%20Images%20for%20Wallflower%20Paper_1864.docx",
+      "role": "license",
+      "size_bytes": 46794,
+      "sha256": "3d8c17eb3cd9528312c556dab2c33c687297c0fc7f433485d331330c0ea57201"
+    },
+    {
+      "id": "caviar-walk1",
+      "path": "tmp/rebuild-data/caviar/Walk1.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk1/Walk1.mpg",
+      "role": "video",
+      "size_bytes": 7208095,
+      "sha256": "a5d6dc7d7def01c1bdaeea8ff620195c148b366e1a52589bf4e46f15b6daa0c2",
+      "width": 384,
+      "height": 288,
+      "frame_count": 612,
+      "source_fps": 25,
+      "annotation_id": "caviar-walk1-xml"
+    },
+    {
+      "id": "caviar-walk1-xml",
+      "path": "tmp/rebuild-data/caviar/wk1gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk1/wk1gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 1490491,
+      "sha256": "dfcb8135fe46e7fbbcb7616d93f4f16aee040570185227ecd8c81aaa87de06cd",
+      "frame_count": 611
+    },
+    {
+      "id": "caviar-walk2",
+      "path": "tmp/rebuild-data/caviar/Walk2.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk2/Walk2.mpg",
+      "role": "video",
+      "size_bytes": 12312343,
+      "sha256": "b0096abea4a99c67b78d46e37fc5abae7f510b81ff3712911c3295656d3aa8b8",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1056,
+      "source_fps": 25,
+      "annotation_id": "caviar-walk2-xml"
+    },
+    {
+      "id": "caviar-walk2-xml",
+      "path": "tmp/rebuild-data/caviar/wk2gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk2/wk2gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 2791801,
+      "sha256": "56392c137a48482d25a4bbe144aa8297547367b03c5afc0bedc73c9d1bbe9326",
+      "frame_count": 1055
+    },
+    {
+      "id": "caviar-walk3",
+      "path": "tmp/rebuild-data/caviar/Walk3.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk3/Walk3.mpg",
+      "role": "video",
+      "size_bytes": 15889216,
+      "sha256": "ff308985f127652527f67675516ca362fd21531c4a24e3fe055fec3fcb78c407",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1380,
+      "source_fps": 25,
+      "annotation_id": "caviar-walk3-xml"
+    },
+    {
+      "id": "caviar-walk3-xml",
+      "path": "tmp/rebuild-data/caviar/wk3gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Walk3/wk3gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 833573,
+      "sha256": "1f7baa1101e0e084d37d4b02457b1a4951647bad423cb78ca74e38b1fff90f9b",
+      "frame_count": 1379
+    },
+    {
+      "id": "caviar-browse1",
+      "path": "tmp/rebuild-data/caviar/Browse1.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse1/Browse1.mpg",
+      "role": "video",
+      "size_bytes": 12405350,
+      "sha256": "fafff382d83c7f091dc47396dee82159fb88c0d951b649b6f17afc2b0a914380",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1044,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse1-xml"
+    },
+    {
+      "id": "caviar-browse1-xml",
+      "path": "tmp/rebuild-data/caviar/br1gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse1/br1gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 1593009,
+      "sha256": "4970dc26d3302f12d673c6df33d0dc92760016175f8bb4294fc219b0fe62f753",
+      "frame_count": 1043
+    },
+    {
+      "id": "caviar-browse2",
+      "path": "tmp/rebuild-data/caviar/Browse2.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse2/Browse2.mpg",
+      "role": "video",
+      "size_bytes": 10005185,
+      "sha256": "c1decc9a72a48133674227cf64ad79adbde5dbd9239c45f1e868056ada9a0851",
+      "width": 384,
+      "height": 288,
+      "frame_count": 876,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse2-xml"
+    },
+    {
+      "id": "caviar-browse2-xml",
+      "path": "tmp/rebuild-data/caviar/br2gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse2/br2gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 689282,
+      "sha256": "c5755b19aef64f35a08b79f6effb83c1bdcadf446f4a82344296cb201c7d9939",
+      "frame_count": 875
+    },
+    {
+      "id": "caviar-browse3",
+      "path": "tmp/rebuild-data/caviar/Browse3.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse3/Browse3.mpg",
+      "role": "video",
+      "size_bytes": 10503996,
+      "sha256": "0ed6cf6287f4b1fc96174f62d0d42340f597538334e8fd08ddc9fbb0840391ba",
+      "width": 384,
+      "height": 288,
+      "frame_count": 912,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse3-xml"
+    },
+    {
+      "id": "caviar-browse3-xml",
+      "path": "tmp/rebuild-data/caviar/br3gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse3/br3gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 740579,
+      "sha256": "1a5b603dc2d5342a3451cf6d5bbb0a843f985dd75d0965b933d85c09086c9580",
+      "frame_count": 911
+    },
+    {
+      "id": "caviar-browse4",
+      "path": "tmp/rebuild-data/caviar/Browse4.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse4/Browse4.mpg",
+      "role": "video",
+      "size_bytes": 13152710,
+      "sha256": "7ce2cd82e77ab7e2c572802dbcae57b8be20eff55c2f3de47770185246f37c12",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1140,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse4-xml"
+    },
+    {
+      "id": "caviar-browse4-xml",
+      "path": "tmp/rebuild-data/caviar/br4gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse4/br4gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 704394,
+      "sha256": "f5ea497e9a58faf96362a414085c902a907b1ebef9e81174a76b44f7c57da6ea",
+      "frame_count": 1139
+    },
+    {
+      "id": "caviar-browse-whilewaiting1",
+      "path": "tmp/rebuild-data/caviar/Browse_WhileWaiting1.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse_WhileWaiting1/Browse_WhileWaiting1.mpg",
+      "role": "video",
+      "size_bytes": 9033442,
+      "sha256": "7193e2abde457ab12d3ebb56e22f330b0d138116f20194ba0fa7d1929812d1fc",
+      "width": 384,
+      "height": 288,
+      "frame_count": 792,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse-whilewaiting1-xml"
+    },
+    {
+      "id": "caviar-browse-whilewaiting1-xml",
+      "path": "tmp/rebuild-data/caviar/bww1gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse_WhileWaiting1/bww1gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 950155,
+      "sha256": "63e0be4b155714de18ee2f8866ce4e4df6d72102c41002dc054a3c2cb4b1176d",
+      "frame_count": 791
+    },
+    {
+      "id": "caviar-browse-whilewaiting2",
+      "path": "tmp/rebuild-data/caviar/Browse_WhileWaiting2.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse_WhileWaiting2/Browse_WhileWaiting2.mpg",
+      "role": "video",
+      "size_bytes": 21395638,
+      "sha256": "975324fe121725a0cf74e47acf111ec6d403e46107d5d2742df126a1f3567bd8",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1896,
+      "source_fps": 25,
+      "annotation_id": "caviar-browse-whilewaiting2-xml"
+    },
+    {
+      "id": "caviar-browse-whilewaiting2-xml",
+      "path": "tmp/rebuild-data/caviar/bww2gt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Browse_WhileWaiting2/bww2gt.xml",
+      "role": "ground_truth",
+      "size_bytes": 910623,
+      "sha256": "13d80d8cba1f2ede1d3ab5f5803bde078d1ee03d1c2831f348d4b85d52082fd8",
+      "frame_count": 1895
+    },
+    {
+      "id": "caviar-rest-inchair",
+      "path": "tmp/rebuild-data/caviar/Rest_InChair.mpg",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Rest_InChair/Rest_InChair.mpg",
+      "role": "video",
+      "size_bytes": 11700215,
+      "sha256": "19b32edd0fe6ad0c0243f3c94adc787ffee28d8a74cb8ca73473fdfb996c423a",
+      "width": 384,
+      "height": 288,
+      "frame_count": 1008,
+      "source_fps": 25,
+      "annotation_id": "caviar-rest-inchair-xml"
+    },
+    {
+      "id": "caviar-rest-inchair-xml",
+      "path": "tmp/rebuild-data/caviar/ricgt.xml",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/Rest_InChair/ricgt.xml",
+      "role": "ground_truth",
+      "size_bytes": 1019250,
+      "sha256": "15be1e83afe70162e6a2e14464918c5e267e3b12d9d6463eaa0f57a10d8be96f",
+      "frame_count": 1007
+    }
+  ]
+}
