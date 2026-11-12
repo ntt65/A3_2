@@ -1,0 +1,1 @@
+event_id,condition,source_id,start_frame,end_frame,valid_event,eligible_target_frames,excluded_occluded_target_frames,excluded_other_target_frames,id_switch_count,tracking_failure_count,failed_event,evidence_path,observation_notes

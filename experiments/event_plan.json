@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "frame_numbering": "Zero-based, inclusive within each named original video or archive.",
+  "events": [
+    {
+      "event_id": "single_moving-01",
+      "condition": "single_moving",
+      "source_id": "caviar-walk1",
+      "start_frame": 50,
+      "end_frame": 82,
+      "anchor_frame": 66,
+      "clip_start_frame": 0,
+      "clip_end_frame": 610,
+      "subjects": [
+        "CAVIAR object 0"
+      ],
+      "annotation_ids": [
+        0
+      ],
+      "notes": "The only annotated walker in this window."
+    },
+    {
+      "event_id": "single_moving-02",
+      "condition": "single_moving",
+      "source_id": "caviar-walk2",
+      "start_frame": 296,
+      "end_frame": 596,
+      "anchor_frame": 446,
+      "clip_start_frame": 170,
+      "clip_end_frame": 794,
+      "subjects": [
+        "CAVIAR object 4"
+      ],
+      "annotation_ids": [
+        4
+      ],
+      "notes": "One walking person. Other annotated people are stationary."
+    },
+    {
+      "event_id": "single_moving-03",
+      "condition": "single_moving",
+      "source_id": "caviar-walk3",
+      "start_frame": 471,
+      "end_frame": 726,
+      "anchor_frame": 598,
+      "clip_start_frame": 315,
+      "clip_end_frame": 939,
+      "subjects": [
+        "CAVIAR object 2"
+      ],
+      "annotation_ids": [
+        2
+      ],
+      "notes": "The only annotated walker in this window."
+    },
+    {
+      "event_id": "single_moving-04",
+      "condition": "single_moving",
+      "source_id": "caviar-browse1",
+      "start_frame": 343,
+      "end_frame": 622,
+      "anchor_frame": 482,
+      "clip_start_frame": 200,
+      "clip_end_frame": 824,
+      "subjects": [
+        "CAVIAR object 3"
+      ],
+      "annotation_ids": [
+        3
+      ],
+      "notes": "One walking person. Other annotated people are stationary."
+    },
+    {
+      "event_id": "single_moving-05",
+      "condition": "single_moving",
+      "source_id": "caviar-browse2",
+      "start_frame": 300,
+      "end_frame": 547,
+      "anchor_frame": 423,
+      "clip_start_frame": 245,
+      "clip_end_frame": 869,
+      "subjects": [
+        "CAVIAR object 3"
+      ],
+      "annotation_ids": [
+        3
+      ],
+      "notes": "Approach to the wall before the stop."
+    },
+    {
+      "event_id": "single_moving-06",
+      "condition": "single_moving",
+      "source_id": "caviar-browse3",
+      "start_frame": 252,
+      "end_frame": 524,
+      "anchor_frame": 388,
+      "clip_start_frame": 200,
+      "clip_end_frame": 824,
+      "subjects": [
+        "CAVIAR object 1"
+      ],
+      "annotation_ids": [
+        1
+      ],
+      "notes": "Approach across the lobby before the stop."
+    },
+    {
+      "event_id": "single_moving-07",
+      "condition": "single_moving",
+      "source_id": "caviar-browse4",
+      "start_frame": 151,
+      "end_frame": 277,
+      "anchor_frame": 214,
+      "clip_start_frame": 110,
+      "clip_end_frame": 734,
+      "subjects": [
+        "CAVIAR object 1"
+      ],
+      "annotation_ids": [
+        1
+      ],
+      "notes": "Annotated walk toward the reception area before the stop."
+    },
+    {
+      "event_id": "single_moving-08",
+      "condition": "single_moving",
+      "source_id": "caviar-browse-whilewaiting1",
+      "start_frame": 50,
+      "end_frame": 151,
+      "anchor_frame": 100,
+      "clip_start_frame": 0,
+      "clip_end_frame": 624,
+      "subjects": [
+        "CAVIAR object 0"
+      ],
+      "annotation_ids": [
+        0
+      ],
+      "notes": "The only annotated walker in this window."
+    },
+    {
+      "event_id": "single_moving-09",
+      "condition": "single_moving",
+      "source_id": "caviar-browse-whilewaiting2",
+      "start_frame": 820,
+      "end_frame": 995,
+      "anchor_frame": 907,
+      "clip_start_frame": 750,
+      "clip_end_frame": 1374,
+      "subjects": [
+        "CAVIAR object 0"
+      ],
+      "annotation_ids": [
+        0
+      ],
+      "notes": "The only annotated walker in this window."
+    },
+    {
+      "event_id": "single_moving-10",
+      "condition": "single_moving",
+      "source_id": "caviar-rest-inchair",
+      "start_frame": 252,
+      "end_frame": 464,
+      "anchor_frame": 358,
+      "clip_start_frame": 180,
+      "clip_end_frame": 804,
+      "subjects": [
+        "CAVIAR object 1"
+      ],
+      "annotation_ids": [
+        1
+      ],
+      "notes": "Walk toward the chair. The stop is outside this event window."
+    },
+    {
+      "event_id": "overlap-01",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 163,
+      "end_frame": 183,
+      "anchor_frame": 169,
+      "clip_start_frame": 0,
+      "clip_end_frame": 249,
+      "subjects": [
+        "Navy striped jacket and light jeans moving left",
+        "Brown jacket and jeans moving right"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-02",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 287,
+      "end_frame": 301,
+      "anchor_frame": 293,
+      "clip_start_frame": 230,
+      "clip_end_frame": 479,
+      "subjects": [
+        "All-black coat moving left along upper path",
+        "Brown jacket and jeans moving up toward the path"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-03",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 297,
+      "end_frame": 311,
+      "anchor_frame": 303,
+      "clip_start_frame": 230,
+      "clip_end_frame": 479,
+      "subjects": [
+        "All-black coat moving left along upper path",
+        "Bald or gray-haired dark jacket and jeans moving right"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-04",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 338,
+      "end_frame": 352,
+      "anchor_frame": 344,
+      "clip_start_frame": 230,
+      "clip_end_frame": 479,
+      "subjects": [
+        "Bald or gray-haired dark jacket and jeans moving right",
+        "Dark-haired brown jacket moving left near sign"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-05",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 456,
+      "end_frame": 470,
+      "anchor_frame": 462,
+      "clip_start_frame": 340,
+      "clip_end_frame": 589,
+      "subjects": [
+        "Red jacket and jeans moving left",
+        "All-black coat moving down-right"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-06",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 477,
+      "end_frame": 491,
+      "anchor_frame": 483,
+      "clip_start_frame": 340,
+      "clip_end_frame": 589,
+      "subjects": [
+        "All-black coat moving down the right-hand path",
+        "Bald dark jacket and blue jeans moving up-left"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-07",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 497,
+      "end_frame": 513,
+      "anchor_frame": 503,
+      "clip_start_frame": 340,
+      "clip_end_frame": 589,
+      "subjects": [
+        "Dark coat in the middle of the right-hand path",
+        "Dark jacket entering from left and moving down-right"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-08",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 616,
+      "end_frame": 630,
+      "anchor_frame": 622,
+      "clip_start_frame": 500,
+      "clip_end_frame": 749,
+      "subjects": [
+        "Red-and-navy jacket with white paper",
+        "All-black coat crossing toward the left"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-09",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 684,
+      "end_frame": 698,
+      "anchor_frame": 690,
+      "clip_start_frame": 500,
+      "clip_end_frame": 749,
+      "subjects": [
+        "Red jacket and jeans on upper path",
+        "Red-and-navy jacket with white paper on upper path"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "overlap-10",
+      "condition": "overlap",
+      "source_id": "vtest",
+      "start_frame": 721,
+      "end_frame": 735,
+      "anchor_frame": 727,
+      "clip_start_frame": 500,
+      "clip_end_frame": 749,
+      "subjects": [
+        "Dark jacket and blue jeans walking right",
+        "Dark jacket and black trousers crossing left"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical pedestrian overlap. Annotate both identities before and after contact. Exclude any frame in which the sign or a person hides at least half of the target."
+    },
+    {
+      "event_id": "stop-01",
+      "condition": "stop",
+      "source_id": "caviar-browse1",
+      "start_frame": 623,
+      "end_frame": 755,
+      "anchor_frame": 690,
+      "clip_start_frame": 200,
+      "clip_end_frame": 824,
+      "subjects": [
+        "CAVIAR object 3"
+      ],
+      "annotation_ids": [
+        3
+      ],
+      "notes": "The actor stands at the right wall and browses before walking again. Upper-body movement may continue."
+    },
+    {
+      "event_id": "stop-02",
+      "condition": "stop",
+      "source_id": "caviar-browse2",
+      "start_frame": 548,
+      "end_frame": 749,
+      "anchor_frame": 648,
+      "clip_start_frame": 245,
+      "clip_end_frame": 869,
+      "subjects": [
+        "CAVIAR object 3"
+      ],
+      "annotation_ids": [
+        3
+      ],
+      "notes": "The actor reads at the right wall and resumes walking."
+    },
+    {
+      "event_id": "stop-03",
+      "condition": "stop",
+      "source_id": "caviar-browse3",
+      "start_frame": 525,
+      "end_frame": 659,
+      "anchor_frame": 590,
+      "clip_start_frame": 200,
+      "clip_end_frame": 824,
+      "subjects": [
+        "CAVIAR object 1"
+      ],
+      "annotation_ids": [
+        1
+      ],
+      "notes": "The actor browses near the upper wall with their back turned, then moves away."
+    },
+    {
+      "event_id": "stop-04",
+      "condition": "stop",
+      "source_id": "vtest",
+      "start_frame": 405,
+      "end_frame": 455,
+      "anchor_frame": 430,
+      "clip_start_frame": 390,
+      "clip_end_frame": 639,
+      "subjects": [
+        "Brown jacket and blue jeans at the grass boundary left of the sign"
+      ],
+      "annotation_ids": [],
+      "notes": "The actor stands at the edge of the grass, gestures, then walks toward the sign."
+    },
+    {
+      "event_id": "stop-05",
+      "condition": "stop",
+      "source_id": "vtest",
+      "start_frame": 546,
+      "end_frame": 607,
+      "anchor_frame": 575,
+      "clip_start_frame": 390,
+      "clip_end_frame": 639,
+      "subjects": [
+        "All-black coat standing on the lower-right pavement"
+      ],
+      "annotation_ids": [],
+      "notes": "The actor stands and gestures on the lower-right pavement, then walks left/up."
+    },
+    {
+      "event_id": "illumination-01",
+      "condition": "illumination",
+      "source_id": "wallflower-light-switch",
+      "start_frame": 797,
+      "end_frame": 830,
+      "anchor_frame": 812,
+      "clip_start_frame": 760,
+      "clip_end_frame": 859,
+      "subjects": [
+        "Person in the lab near the room light switch"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical lights-off at frame 812. Dark or off-screen periods are assessed for visibility frame by frame.",
+      "archive_playback_fps": 4
+    },
+    {
+      "event_id": "illumination-02",
+      "condition": "illumination",
+      "source_id": "wallflower-light-switch",
+      "start_frame": 1843,
+      "end_frame": 1880,
+      "anchor_frame": 1853,
+      "clip_start_frame": 1800,
+      "clip_end_frame": 1899,
+      "subjects": [
+        "Person entering the lab and switching the lights on"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical lights-on at frame 1853.",
+      "archive_playback_fps": 4
+    },
+    {
+      "event_id": "illumination-03",
+      "condition": "illumination",
+      "source_id": "wallflower-light-switch",
+      "start_frame": 2170,
+      "end_frame": 2194,
+      "anchor_frame": 2188,
+      "clip_start_frame": 2140,
+      "clip_end_frame": 2239,
+      "subjects": [
+        "Black-clad person leaving the lab"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical lights-off at frame 2188. The person remains visible at the door for part of the window.",
+      "archive_playback_fps": 4
+    },
+    {
+      "event_id": "illumination-04",
+      "condition": "illumination",
+      "source_id": "sbm-i-il-01",
+      "start_frame": 18,
+      "end_frame": 50,
+      "anchor_frame": 27,
+      "clip_start_frame": 0,
+      "clip_end_frame": 88,
+      "subjects": [
+        "Red shirt and blue jeans operating a wall switch"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical lights-on between frames 26 and 27. Adjacent exposure adaptation belongs to this event. Indices belong to the SBMnet subset. Source FPS is unknown.",
+      "archive_playback_fps": 10
+    },
+    {
+      "event_id": "illumination-05",
+      "condition": "illumination",
+      "source_id": "sbm-i-il-02",
+      "start_frame": 125,
+      "end_frame": 183,
+      "anchor_frame": 144,
+      "clip_start_frame": 50,
+      "clip_end_frame": 299,
+      "subjects": [
+        "Red shirt at the blinds in the back-left of the lab"
+      ],
+      "annotation_ids": [],
+      "notes": "Physical window-blind opening develops around frames 137 to 156. Frame 144 is a representative anchor. Indices belong to the SBMnet subset. Source FPS is unknown.",
+      "archive_playback_fps": 10
+    }
+  ]
+}
