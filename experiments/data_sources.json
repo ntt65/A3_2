@@ -43,6 +43,19 @@
       "member_pattern": "b(?P<frame>\\d{5})\\.bmp"
     },
     {
+      "id": "wallflower-time-of-day",
+      "path": "tmp/rebuild-data/lasiesta/TimeOfDay.zip",
+      "url": "https://download.microsoft.com/download/E/7/6/E76CBD7B-7C3A-4D18-AA87-FC4B57DCCDAA/WallFlower/TimeOfDay.zip",
+      "role": "frame_archive",
+      "size_bytes": 197695102,
+      "sha256": "3d59e3b4036daf3e5353be025dc76d06382148714605eb3647dfd8bced7768ca",
+      "width": 160,
+      "height": 120,
+      "frame_count": 5890,
+      "source_fps": 4,
+      "member_pattern": "b(?P<frame>\\d{5})\\.bmp"
+    },
+    {
       "id": "wallflower-license",
       "path": "data/videos/wallflower/LICENSE.docx",
       "url": "https://download.microsoft.com/download/E/7/6/E76CBD7B-7C3A-4D18-AA87-FC4B57DCCDAA/MSR-LA-Data-allow%20modification%20and%20distribution-Test%20Images%20for%20Wallflower%20Paper_1864.docx",
@@ -269,32 +282,6 @@
       "size_bytes": 1019250,
       "sha256": "15be1e83afe70162e6a2e14464918c5e267e3b12d9d6463eaa0f57a10d8be96f",
       "frame_count": 1007
-    },
-    {
-      "id": "sbm-i-il-01",
-      "path": "tmp/rebuild-data/lasiesta/sbm-I_IL_01.zip",
-      "url": "https://scenebackgroundmodeling.net/static/dataset/illuminationChanges/I_IL_01.zip",
-      "role": "frame_archive",
-      "size_bytes": 1072506,
-      "sha256": "594139f928d72c9a8753c0039ec4fa84d725d23aac6153eecee57fa28f1f0009",
-      "width": 352,
-      "height": 288,
-      "frame_count": 89,
-      "source_fps": null,
-      "member_pattern": "I_IL_01/input/in(?P<frame>\\d{6})\\.jpg"
-    },
-    {
-      "id": "sbm-i-il-02",
-      "path": "tmp/rebuild-data/lasiesta/sbm-I_IL_02.zip",
-      "url": "https://scenebackgroundmodeling.net/static/dataset/illuminationChanges/I_IL_02.zip",
-      "role": "frame_archive",
-      "size_bytes": 4618183,
-      "sha256": "1db5be14a3f1436b2cf6940d963357e646075508249f526a0e60de06d7745a8c",
-      "width": 352,
-      "height": 288,
-      "frame_count": 312,
-      "source_fps": null,
-      "member_pattern": "I_IL_02/input/in(?P<frame>\\d{6})\\.jpg"
     }
   ]
 }

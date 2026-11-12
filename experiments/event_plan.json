@@ -464,34 +464,34 @@
     {
       "event_id": "illumination-04",
       "condition": "illumination",
-      "source_id": "sbm-i-il-01",
-      "start_frame": 18,
-      "end_frame": 50,
-      "anchor_frame": 27,
-      "clip_start_frame": 0,
-      "clip_end_frame": 88,
+      "source_id": "wallflower-time-of-day",
+      "start_frame": 1831,
+      "end_frame": 1909,
+      "anchor_frame": 1870,
+      "clip_start_frame": 1810,
+      "clip_end_frame": 1909,
       "subjects": [
-        "Red shirt and blue jeans operating a wall switch"
+        "Dark-clothed reader entering and sitting on the right-hand couch"
       ],
       "annotation_ids": [],
-      "notes": "Physical lights-on between frames 26 and 27. Adjacent exposure adaptation belongs to this event. Indices belong to the SBMnet subset. Source FPS is unknown.",
-      "archive_playback_fps": 10
+      "notes": "Gradual physical brightening is in progress in the EasyLiving lab. The original script places the start of the ramp at frame 0 and the reader entry at frame 1831. Frame 1870 is a representative anchor within the ramp.",
+      "archive_playback_fps": 4
     },
     {
       "event_id": "illumination-05",
       "condition": "illumination",
-      "source_id": "sbm-i-il-02",
-      "start_frame": 125,
-      "end_frame": 183,
-      "anchor_frame": 144,
-      "clip_start_frame": 50,
-      "clip_end_frame": 299,
+      "source_id": "wallflower-time-of-day",
+      "start_frame": 4739,
+      "end_frame": 4817,
+      "anchor_frame": 4778,
+      "clip_start_frame": 4718,
+      "clip_end_frame": 4817,
       "subjects": [
-        "Red shirt at the blinds in the back-left of the lab"
+        "Dark-clothed reader entering and sitting on the right-hand couch"
       ],
       "annotation_ids": [],
-      "notes": "Physical window-blind opening develops around frames 137 to 156. Frame 144 is a representative anchor. Indices belong to the SBMnet subset. Source FPS is unknown.",
-      "archive_playback_fps": 10
+      "notes": "A separate physical dimming ramp is in progress in the EasyLiving lab. The original script places dimming from maximum brightness at frame 3244 and the reader entry at frame 4739. Frame 4778 is a representative anchor within the ramp.",
+      "archive_playback_fps": 4
     }
   ]
 }
