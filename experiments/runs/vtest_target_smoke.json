@@ -1,0 +1,411 @@
+{
+  "source": {
+    "file": "vtest.avi",
+    "sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf"
+  },
+  "reference": {
+    "source_frame": 750,
+    "bbox_xywh": [
+      640,
+      35,
+      90,
+      80
+    ],
+    "sha256": "365fb7e241245f546d49b1b8d553b526206d509046fadbd17e1ea2f91f21df3f"
+  },
+  "input": {
+    "source_range": [
+      751,
+      794
+    ],
+    "clip_sha256": "6d12c16b44242883c902850513f130ee8afcfbad9e6fd59a268fd9a021b7dafa",
+    "frame_map_sha256": "8c57af9c822627ee1dc7f9aca71cb23aba00b556974c351346e153d0843ec3c3"
+  },
+  "app_run": {
+    "status": "completed",
+    "reason": "source_eof",
+    "frames_processed": 44,
+    "source_fps": 10.0,
+    "annotated_video_fps": null,
+    "error": null,
+    "parameters": {
+      "video": "tmp\\real-target-smoke\\vtest-f751-794.avi",
+      "camera": null,
+      "target": "tmp\\real-target-smoke\\parked-van-f750.png",
+      "headless": true,
+      "frame_log": "tmp\\real-target-smoke\\frames.jsonl",
+      "summary_json": "tmp\\real-target-smoke\\summary.json",
+      "annotated_video": null,
+      "learning_rate": -1.0,
+      "min_area": 500.0,
+      "kernel_size": 5,
+      "max_distance": 60.0,
+      "max_missed": 5,
+      "snapshot_dir": "outputs\\snapshots"
+    },
+    "versions": {
+      "python": "3.11.4",
+      "opencv": "4.14.0",
+      "numpy": "2.4.6"
+    },
+    "git": {
+      "commit": "96251bdc5039f24bf9102ec45038a76d5c4861b4",
+      "dirty": true
+    }
+  },
+  "scope": "Fixed-view parked van reference includes surrounding scene. Actual app target flag smoke test.",
+  "frames": [
+    {
+      "source_frame": 751,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 752,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 753,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 754,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 755,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 756,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 48,
+      "match_rate": 0.39669421487603307
+    },
+    {
+      "source_frame": 757,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 758,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 759,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 760,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 761,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 762,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 763,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 764,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 765,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 766,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 767,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 768,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 769,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 770,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 771,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 772,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 773,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 774,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 775,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 776,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 777,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 778,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 779,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 49,
+      "match_rate": 0.4049586776859504
+    },
+    {
+      "source_frame": 780,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 781,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 50,
+      "match_rate": 0.4132231404958678
+    },
+    {
+      "source_frame": 782,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 783,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 784,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 785,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 786,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 787,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 788,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 789,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 790,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 51,
+      "match_rate": 0.4214876033057851
+    },
+    {
+      "source_frame": 791,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 52,
+      "match_rate": 0.4297520661157025
+    },
+    {
+      "source_frame": 792,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    },
+    {
+      "source_frame": 793,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 54,
+      "match_rate": 0.4462809917355372
+    },
+    {
+      "source_frame": 794,
+      "detected": true,
+      "reference_keypoints": 121,
+      "frame_keypoints": 1000,
+      "good_matches": 53,
+      "match_rate": 0.4380165289256198
+    }
+  ]
+}

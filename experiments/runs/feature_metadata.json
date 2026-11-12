@@ -1,0 +1,43 @@
+{
+  "measurement": {
+    "revision": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+    "dirty_at_start": false,
+    "module": "tools.evaluate_features",
+    "argv": [
+      "C:\\Program Files\\Python311\\python.exe",
+      "-B",
+      "-m",
+      "tools.evaluate_features",
+      "--reference",
+      "D:/git/A3_2/data/targets/box.png",
+      "--positive-scene",
+      "D:/git/A3_2/data/targets/box_in_scene.png",
+      "--output-dir",
+      "tmp/final-runs"
+    ],
+    "input_hashes": {
+      "tools/evaluate_features.py": "5a48905a70f20b17fe04c56a931cd39f5be4040834df93a96657fae594d581e3",
+      "tools/evaluate_learning_rates.py": "1022d687d4e73ec6f7ec8c4c0037969e58edc97fde3b7dcbdb6e094f6338c147",
+      "target_matcher.py": "a2e894c26ec85ad4e3436904bc2906054fa53aa9ef0bea571df728ff41c3c5dc",
+      "contracts.py": "0a60ca515b94be2d27a199525ec4f5b4ed67fc1c000e9d49685f40e80cb83d47"
+    }
+  },
+  "python": "3.11.4",
+  "opencv": "4.14.0",
+  "numpy": "2.4.6",
+  "reference_file": "box.png",
+  "reference_sha256": "1094629c1e2ebbc8a9ae2c9c63e18c1dff0f5f1481146e02f3b11a3d30feb20a",
+  "nfeatures": 1000,
+  "ratio": 0.75,
+  "min_matches": 12,
+  "method": "same physical image, in-plane rotation on padded canvas, flat left-side occlusion",
+  "positive_scene": {
+    "file": "box_in_scene.png",
+    "sha256": "8b0225ff76244a42bd1400c0904f8b7afea7d97b7d8115495e42e98ad347bd51",
+    "reference_keypoints": 1000,
+    "frame_keypoints": 1000,
+    "good_matches": 69,
+    "match_rate": 0.069,
+    "detected": true
+  }
+}

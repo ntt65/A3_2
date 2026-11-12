@@ -1,0 +1,510 @@
+{
+  "measurement": {
+    "revision": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+    "dirty_at_start": false,
+    "module": "tools.evaluate_learning_rates",
+    "argv": [
+      "C:\\Program Files\\Python311\\python.exe",
+      "-B",
+      "-m",
+      "tools.evaluate_learning_rates",
+      "--source-root",
+      "D:/git/A3_2",
+      "--work-dir",
+      "tmp/final-learning",
+      "--output-dir",
+      "tmp/final-runs"
+    ],
+    "input_hashes": {
+      "experiments/event_plan.json": "f8f4e4e04a23939ae42f663b892e96019b2600e9dab0a83a43a2deba5d211dc7",
+      "experiments/data_sources.json": "8d03f94a6c77b891f96a96e621a28f60f00c5f01010371afde9c0424a10e157b",
+      "tools/evaluate_learning_rates.py": "1022d687d4e73ec6f7ec8c4c0037969e58edc97fde3b7dcbdb6e094f6338c147",
+      "tools/prepare_evaluation_clips.py": "e0d9845ca074422804fc06db3509994989b1252481dff4b90f0c793b351aa3fa",
+      "main.py": "b87a4b124d898015476a6a248c3c07ae1322a880a4a5e1ad3b53e10c94750606",
+      "motion_detector.py": "0c3a8126b2e4afc2f59cb44631a825597a6c5b5a8069da98c86875f0b9a6931c",
+      "tracker.py": "b030ee00000db1e6ab0adb389c72d8c8e53e9e2b1f25e734c8f28eca8b66e48d",
+      "video.py": "bff07f17a6905b2b337bf1e19b5daff5ec24044471c5345f2f979fdc3a5936f1",
+      "contracts.py": "0a60ca515b94be2d27a199525ec4f5b4ed67fc1c000e9d49685f40e80cb83d47"
+    }
+  },
+  "quiet_definition": "first five consecutive clean foreground fractions at or below 0.10",
+  "runs": [
+    {
+      "event_id": "overlap-05",
+      "learning_rate": -1.0,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "0a2f14cc868d0b87bac1e95ac4249b47aaff1a7d9332c0e38ac1cc1f8dbbcc3a",
+      "frame_map_sha256": "83f2d318530565add3b8037c75e4d8a0ed8f6fb2136956a98f7c514e1c360fbc",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\overlap-05--1.0\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\overlap-05--1.0\\summary.json",
+        "annotated_video": null,
+        "learning_rate": -1.0,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\overlap-05--1.0\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\overlap-05--1.0\\summary.json",
+        "--learning-rate",
+        "-1.0",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "overlap-05",
+      "learning_rate": 0.005,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "0a2f14cc868d0b87bac1e95ac4249b47aaff1a7d9332c0e38ac1cc1f8dbbcc3a",
+      "frame_map_sha256": "83f2d318530565add3b8037c75e4d8a0ed8f6fb2136956a98f7c514e1c360fbc",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\overlap-05-0.005\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\overlap-05-0.005\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.005,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\overlap-05-0.005\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\overlap-05-0.005\\summary.json",
+        "--learning-rate",
+        "0.005",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "overlap-05",
+      "learning_rate": 0.05,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "0a2f14cc868d0b87bac1e95ac4249b47aaff1a7d9332c0e38ac1cc1f8dbbcc3a",
+      "frame_map_sha256": "83f2d318530565add3b8037c75e4d8a0ed8f6fb2136956a98f7c514e1c360fbc",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\overlap-05-0.05\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\overlap-05-0.05\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.05,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-340-589.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\overlap-05-0.05\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\overlap-05-0.05\\summary.json",
+        "--learning-rate",
+        "0.05",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "stop-04",
+      "learning_rate": -1.0,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "c924949341358914eaa0b31a255c83536b53def74f0421d76387933a9e2bc7bb",
+      "frame_map_sha256": "935974077e6577b1a737ec3b4944524a2173feef017953acfd90e472337b039e",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\stop-04--1.0\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\stop-04--1.0\\summary.json",
+        "annotated_video": null,
+        "learning_rate": -1.0,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\stop-04--1.0\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\stop-04--1.0\\summary.json",
+        "--learning-rate",
+        "-1.0",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "stop-04",
+      "learning_rate": 0.005,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "c924949341358914eaa0b31a255c83536b53def74f0421d76387933a9e2bc7bb",
+      "frame_map_sha256": "935974077e6577b1a737ec3b4944524a2173feef017953acfd90e472337b039e",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\stop-04-0.005\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\stop-04-0.005\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.005,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\stop-04-0.005\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\stop-04-0.005\\summary.json",
+        "--learning-rate",
+        "0.005",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "stop-04",
+      "learning_rate": 0.05,
+      "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+      "clip_sha256": "c924949341358914eaa0b31a255c83536b53def74f0421d76387933a9e2bc7bb",
+      "frame_map_sha256": "935974077e6577b1a737ec3b4944524a2173feef017953acfd90e472337b039e",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\stop-04-0.05\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\stop-04-0.05\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.05,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 250,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\vtest-390-639.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\stop-04-0.05\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\stop-04-0.05\\summary.json",
+        "--learning-rate",
+        "0.05",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "illumination-02",
+      "learning_rate": -1.0,
+      "source_sha256": "2e0294fffa0bb08ac5f7628221da46370be5c6216daaeea5125c43783c1c3b95",
+      "clip_sha256": "59410c0b7df340d55859073b0f3afa61921b97fcef6689083caec3ad3b687841",
+      "frame_map_sha256": "97672d37ca9e7cf127337ebd0d14710badbae8e5abb9fc5b34e0a1bb029850d5",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\illumination-02--1.0\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\illumination-02--1.0\\summary.json",
+        "annotated_video": null,
+        "learning_rate": -1.0,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 100,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\illumination-02--1.0\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\illumination-02--1.0\\summary.json",
+        "--learning-rate",
+        "-1.0",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "illumination-02",
+      "learning_rate": 0.005,
+      "source_sha256": "2e0294fffa0bb08ac5f7628221da46370be5c6216daaeea5125c43783c1c3b95",
+      "clip_sha256": "59410c0b7df340d55859073b0f3afa61921b97fcef6689083caec3ad3b687841",
+      "frame_map_sha256": "97672d37ca9e7cf127337ebd0d14710badbae8e5abb9fc5b34e0a1bb029850d5",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\illumination-02-0.005\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\illumination-02-0.005\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.005,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 100,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\illumination-02-0.005\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\illumination-02-0.005\\summary.json",
+        "--learning-rate",
+        "0.005",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    },
+    {
+      "event_id": "illumination-02",
+      "learning_rate": 0.05,
+      "source_sha256": "2e0294fffa0bb08ac5f7628221da46370be5c6216daaeea5125c43783c1c3b95",
+      "clip_sha256": "59410c0b7df340d55859073b0f3afa61921b97fcef6689083caec3ad3b687841",
+      "frame_map_sha256": "97672d37ca9e7cf127337ebd0d14710badbae8e5abb9fc5b34e0a1bb029850d5",
+      "parameters": {
+        "video": "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "camera": null,
+        "target": null,
+        "headless": true,
+        "frame_log": "tmp\\final-learning\\illumination-02-0.05\\frames.jsonl",
+        "summary_json": "tmp\\final-learning\\illumination-02-0.05\\summary.json",
+        "annotated_video": null,
+        "learning_rate": 0.05,
+        "min_area": 500.0,
+        "kernel_size": 5,
+        "max_distance": 60.0,
+        "max_missed": 5,
+        "snapshot_dir": "outputs\\snapshots"
+      },
+      "versions": {
+        "python": "3.11.4",
+        "opencv": "4.14.0",
+        "numpy": "2.4.6"
+      },
+      "frames_processed": 100,
+      "app_git": {
+        "commit": "5d40e40e423763c5e989f2766e02d9b50da3ac3f",
+        "dirty": false
+      },
+      "app_argv": [
+        "D:\\git\\A3_2\\tmp\\worktrees\\issue-3-rebuild\\.venv\\Scripts\\python.exe",
+        "main.py",
+        "--video",
+        "tmp\\final-learning\\clips\\wallflower-light-switch-1800-1899.avi",
+        "--headless",
+        "--frame-log",
+        "tmp\\final-learning\\illumination-02-0.05\\frames.jsonl",
+        "--summary-json",
+        "tmp\\final-learning\\illumination-02-0.05\\summary.json",
+        "--learning-rate",
+        "0.05",
+        "--min-area",
+        "500",
+        "--kernel-size",
+        "5",
+        "--max-missed",
+        "5",
+        "--max-distance",
+        "60"
+      ]
+    }
+  ]
+}
