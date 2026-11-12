@@ -1,0 +1,819 @@
+[
+  {
+    "event_id": "single_moving-01",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-02",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            296,
+            596
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-03",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            471,
+            726
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-04",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            343,
+            622
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-05",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            300,
+            547
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-06",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            252,
+            524
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-07",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            151,
+            277
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-08",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            50,
+            151
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-09",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            820,
+            995
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "single_moving-10",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            252,
+            464
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-01",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-01",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-02",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-02",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-03",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 307,
+            "end_frame": 311,
+            "from_id": 1,
+            "to_id": 6
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-03",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 307,
+            "end_frame": 311,
+            "from_id": 10,
+            "to_id": 7
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-04",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-04",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-05",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 465,
+            "end_frame": 470,
+            "from_id": 9,
+            "to_id": 12
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-05",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 465,
+            "end_frame": 470,
+            "from_id": 14,
+            "to_id": 17
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-06",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-06",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 486,
+            "end_frame": 491,
+            "from_id": 16,
+            "to_id": 18
+          }
+        ],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-07",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 509,
+            "end_frame": 513,
+            "from_id": 14,
+            "to_id": 17
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 508,
+            "end_frame": 513,
+            "from_id": 11,
+            "to_id": 14
+          }
+        ],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-07",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": false,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 509,
+            "end_frame": 513,
+            "from_id": 20,
+            "to_id": 24
+          }
+        ],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 508,
+            "end_frame": 512,
+            "from_id": 18,
+            "to_id": 20
+          }
+        ],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-08",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-08",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [],
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-09",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-09",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-10",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 731,
+            "end_frame": 735,
+            "from_id": 29,
+            "to_id": 30
+          }
+        ],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "overlap-10",
+    "max_distance": 30,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      },
+      {
+        "subject": 2,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": [
+          {
+            "start_frame": 731,
+            "end_frame": 735,
+            "from_id": 38,
+            "to_id": 40
+          }
+        ],
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "stop-01",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            623,
+            755
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "stop-02",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            548,
+            749
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "stop-03",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            525,
+            659
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "stop-04",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            406,
+            448
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "stop-05",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            551,
+            607
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "illumination-01",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "illumination-02",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "illumination-03",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [],
+        "switches": null,
+        "continuity_changes": null
+      }
+    ]
+  },
+  {
+    "event_id": "illumination-04",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            1851,
+            1909
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  },
+  {
+    "event_id": "illumination-05",
+    "max_distance": 60,
+    "subjects": [
+      {
+        "subject": 1,
+        "failure_assessable": true,
+        "failures": [
+          [
+            4759,
+            4817
+          ]
+        ],
+        "switches": null,
+        "continuity_changes": []
+      }
+    ]
+  }
+]
