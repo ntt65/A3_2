@@ -1,0 +1,6 @@
+max_distance,condition,planned_events,valid_events,failed_events,tracking_failures,failure_rate,id_switch_eligible_subjects,id_switch_count,continuity_eligible_subjects,continuity_change_count,excluded_occluded_target_frames,excluded_other_target_frames
+60,single_moving,10,10,9,9,0.9,0,,1,0,0,0
+60,overlap,10,10,0,0,0.0,7,5,0,,11,0
+30,overlap,10,10,0,0,0.0,7,6,0,,11,0
+60,stop,5,5,5,5,1.0,0,,2,0,0,0
+60,illumination,5,5,2,2,0.4,0,,4,0,2,28
