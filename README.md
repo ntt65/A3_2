@@ -4,6 +4,15 @@
 
 [한계 분석 보고서](docs/analysis_report.md)에 실제 영상에서의 추적 결과, 학습률과 거리 제한의 비교, ORB 특징점 실험을 기록했다. 과제의 앱과 보고서 요구사항은 [미션 원문](docs/A3_2_mission.pdf)과 [요구사항 #2](https://github.com/ntt65/A3_2/issues/2)에 있다.
 
+## 30분 발표자료
+
+| 최종안 | PowerPoint | PDF |
+| --- | --- | --- |
+| Codex 기술 발표 · 본편 28장 + 부록 4장 | [PPTX](docs/presentation/A3_2_technical_30min_visual.pptx) | [검색 가능한 PDF](docs/presentation/A3_2_technical_30min_visual.pdf) |
+| ChatGPT Work 시각 발표 v2 · 28장 | [PPTX](docs/presentation/A3_2_visual_story_v2.pptx) | [이미지 기반 PDF](docs/presentation/A3_2_visual_story_v2.pdf) |
+
+두 PPTX에 상세 발표자 노트가 포함돼 있다. 30분은 계획시간이며 실제 전체 리허설은 아직 하지 않았다. [제작·수정·검증 과정](docs/presentation-process.md) · [작업 이슈 #14](https://github.com/ntt65/A3_2/issues/14)
+
 ## 설치와 확인
 
 Git과 `uv`를 사용할 수 있는 Windows PowerShell에서 저장소 루트로 이동해 실행한다. `uv.lock`은 Python 3.11 환경의 의존성을 고정한다. 검증에 사용한 버전은 Python 3.11.4, OpenCV 4.14.0(`opencv-python` 4.14.0.94), NumPy 2.4.6이다.
