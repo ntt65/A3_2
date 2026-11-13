@@ -1,0 +1,196 @@
+{
+  "schema": "a3-2-presentation-release-validation.v1",
+  "issue": "https://github.com/ntt65/A3_2/issues/14",
+  "checked_at": "2026-11-13T22:24:13.965509+09:00",
+  "verification_tools": {
+    "python": "3.12.14",
+    "libraries": [
+      "hashlib",
+      "zipfile",
+      "xml.etree.ElementTree",
+      "pypdf"
+    ]
+  },
+  "scope": "Final artifact identity, package/XML, notes, planned durations, PDF pages/text; prior reviews matched to exact final hashes. No application or raw experiment changes.",
+  "current_release_checks": {
+    "status": "pass",
+    "final_folder_files": 4,
+    "files": [
+      {
+        "path": "docs/presentation/A3_2_technical_30min_visual.pptx",
+        "bytes": 4744550,
+        "sha256": "77c28bcefe65edf11b7787735c73e742fee415825c8d21a2f89c6913aa0ca42f",
+        "matches_original_workspace": true,
+        "zip_crc_pass": true,
+        "xml_parts_parsed": 165,
+        "slides": 32,
+        "notes": 32,
+        "nonempty_notes": 32,
+        "planned_seconds": 1800,
+        "chart_parts": 5,
+        "embedded_workbooks": 5,
+        "metadata_slides": 32,
+        "metadata_notes": 32,
+        "chart_part_names": [
+          "ppt/slides/charts/chart1.xml",
+          "ppt/slides/charts/chart2.xml",
+          "ppt/slides/charts/chart3.xml",
+          "ppt/slides/charts/chart4.xml",
+          "ppt/slides/charts/chart5.xml"
+        ],
+        "embedded_workbook_names": [
+          "ppt/embeddings/chart-data-snapshot-001.xlsx",
+          "ppt/embeddings/chart-data-snapshot-002.xlsx",
+          "ppt/embeddings/chart-data-snapshot-003.xlsx",
+          "ppt/embeddings/chart-data-snapshot-004.xlsx",
+          "ppt/embeddings/chart-data-snapshot-005.xlsx"
+        ]
+      },
+      {
+        "path": "docs/presentation/A3_2_technical_30min_visual.pdf",
+        "bytes": 746824,
+        "sha256": "26efcca26913a6b58e5862a809e4d6bdcd9fc4ce55869f112c1122abc9b1baed",
+        "matches_original_workspace": true,
+        "pages": 32,
+        "extracted_text_characters": 11109,
+        "pages_with_text": 32
+      },
+      {
+        "path": "docs/presentation/A3_2_visual_story_v2.pptx",
+        "bytes": 4568227,
+        "sha256": "46a935a47698fec1260e37936d42c14309db57d212ddd6d21de6948c9d91c4d2",
+        "matches_original_workspace": true,
+        "zip_crc_pass": true,
+        "xml_parts_parsed": 149,
+        "slides": 28,
+        "notes": 28,
+        "nonempty_notes": 28,
+        "planned_seconds": 1800,
+        "chart_parts": 5,
+        "embedded_workbooks": 5,
+        "metadata_slides": 28,
+        "metadata_notes": 28,
+        "chart_part_names": [
+          "ppt/slides/charts/chart1.xml",
+          "ppt/slides/charts/chart2.xml",
+          "ppt/slides/charts/chart3.xml",
+          "ppt/slides/charts/chart4.xml",
+          "ppt/slides/charts/chart5.xml"
+        ],
+        "embedded_workbook_names": [
+          "ppt/embeddings/chart-data-snapshot-001.xlsx",
+          "ppt/embeddings/chart-data-snapshot-002.xlsx",
+          "ppt/embeddings/chart-data-snapshot-003.xlsx",
+          "ppt/embeddings/chart-data-snapshot-004.xlsx",
+          "ppt/embeddings/chart-data-snapshot-005.xlsx"
+        ]
+      },
+      {
+        "path": "docs/presentation/A3_2_visual_story_v2.pdf",
+        "bytes": 6976433,
+        "sha256": "eb3f20ef98ea95a3a828c047f5b7c2924ecc402b5ac72ce208985b9137d100ad",
+        "matches_original_workspace": true,
+        "pages": 28,
+        "extracted_text_characters": 0,
+        "pages_with_text": 0
+      }
+    ]
+  },
+  "prior_validation_matched_to_final_files": {
+    "codex": {
+      "package_findings": 0,
+      "layout_findings": 0,
+      "layout_warnings": 0,
+      "reimport_passed": true,
+      "native_powerpoint_readonly_open": true,
+      "native_png_count": 32,
+      "pdf_source": "Microsoft PowerPoint ppSaveAsPDF=32; exact final PPTX opened read-only",
+      "pdf_all_pages_rerendered": true,
+      "native_table_arithmetic_checked_columns": 0,
+      "changed_slides_independently_reviewed": [
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        18,
+        21,
+        28
+      ],
+      "unchanged_slides_pixel_identical_to_prior_review": 21
+    },
+    "work_v2": {
+      "native_powerpoint_readonly_open": true,
+      "native_png_count": 28,
+      "package_integrity": "pass; 0 findings",
+      "layout_geometry": "pass; 0 findings, 0 warnings; actual source size used",
+      "native_chart_workbook_gate": "pass for slides 7,20,22,23,25",
+      "changed_slides_independently_reviewed": [
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        21,
+        23
+      ],
+      "unchanged_slides_pixel_identical_to_prior_review": 20,
+      "existing_measured_chart_data_unchanged": true
+    }
+  },
+  "claim_boundaries": [
+    "Prior native PowerPoint and independent visual reviews matched to final hashes; not rerun during Git packaging.",
+    "Automatic table arithmetic checked zero columns; no claim of complete automated table verification.",
+    "Each planned duration is 1800 seconds; full live rehearsal and projector review not performed.",
+    "Work v2 PDF is raster-based with zero extracted text characters.",
+    "Minor nonblocking observation marker/tick 64 overlap remains on Work v2 slide 7.",
+    "Existing application tests, GUI, webcam, and experiments were not rerun for this release.",
+    "Local tmp evidence/build files are not repository artifacts; one-command rebuild is not provided."
+  ],
+  "local_evidence_identity": [
+    {
+      "local_path": "tmp/a3-visual-v2/final-polished-validation.json",
+      "sha256": "c28c2b965184a7f9483f70dac3613d0ca6e89f54ca02a47cb31ef4d854889572",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/a3-visual-v2/pdf-validation.json",
+      "sha256": "ea6132ce0575f7cb5baea5196fa1d3c01acf4658a74d22ffdc931b8423139392",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/a3-visual-v2/visual-review.md",
+      "sha256": "6493b324e1f4b56523a54e53e44b17a6898346d74f64e1477da8f373e82069bd",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/work-visual-story-v2-audit-20261113/verified-checks.json",
+      "sha256": "6052a0fadfd9306ea13fcc6c58cac3962df2c266bc91b2fdcfab2fada55a4fbc",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/work-visual-story-v2-audit-20261113/visual-delta.md",
+      "sha256": "b65425e58f5282ec2beffd5788065dce8d2c91022d7d74f69eac59325995c4f7",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/work-visual-story-v2-audit-20261113/evidence-delta.md",
+      "sha256": "9772fbef528918f2f62619ff03de46e47f9209f5652b039c28ba462d3e695a10",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/work-visual-story-v2-audit-20261113/content-delta.md",
+      "sha256": "920904aac0da15c3636540393edd5cfc8837466bcaee8c0378ae268b2b20f993",
+      "published_in_repository": false
+    },
+    {
+      "local_path": "tmp/presentation-cleanup-20261113.json",
+      "sha256": "5e74113c78e94f05fa55ba7c9678d64fb8b0a757e4ba2e3262ac37a2997e245e",
+      "published_in_repository": false
+    }
+  ]
+}
